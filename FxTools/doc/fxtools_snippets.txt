@@ -1,0 +1,29 @@
+>>>>>>>>> VERSION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Alexander Tereshchenko
+FuturixTools ###
+1.0.0.#
+###
+© 2005-2006 Alexander Tereshchenko
+
+fx###.exe
+FuturixTools
+1.0
+http://www.fxfp.com/
+
+
+>>>>>>>>> PATHS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+..\..\bin
+..\output
+.\;..\shared;$(FXSHARED)\Includes;
+..\shared
+
+
+>>>>>>>>> MISC <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Default form font: MS Shell Dlg 2
+Base plug-ins address: $01600000
+Base main package address: $00600000
+Compile package as DLL: {$E 'dll'}
+
